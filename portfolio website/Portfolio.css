@@ -1,0 +1,95 @@
+body{
+    background-color:  #02041b;
+    font-family: 'Operator Mono', sans-serif;
+
+}
+.space{
+    height: 10px;
+
+}
+
+header{
+    position: fixed;
+    background-color: #02041b;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    color: #E4D9FF;
+    height: auto;
+}
+.header-list{
+    display: flex;
+    list-style-type: none;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.nav-link{
+    color: #e4d9ff;
+    text-decoration: none;
+
+}
+.logo{
+    width: auto;
+    height: auto;
+}
+section{
+    color:#E4D9FF;
+    background-color: #050833;
+    
+}
+#introduction{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    
+}
+#intro-text{
+    align-items: center;
+    padding-top: 5%;
+    
+}
+#name{
+    font-size: 30px;
+}
+#personal_name{
+    color:rgb(123, 0, 255) ;
+    
+}
+
+#intro-social{
+    padding-top: 2%;
+}
+.social{
+    height: 30px;
+
+}
+.desc{
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+}
+
+#prof-image{
+    align-self: flex-end;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+#intro-contact{
+    color: #E4D9FF;
+    border-radius: 10%;
+    background-color: rgb(123, 0, 255);
+    box-shadow: none;
+}
+
+
+#projects{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    
+}
+#resume{
+    padding-bottom: 20px;
+}
