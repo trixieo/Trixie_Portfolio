@@ -4,8 +4,7 @@ body{
 
 }
 .space{
-    height: 10px;
-
+    height: 15px;
 }
 
 header{
@@ -41,7 +40,7 @@ section{
 #introduction{
     margin-top: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 5%;
     
 }
@@ -57,6 +56,10 @@ section{
     color:rgb(123, 0, 255) ;
     
 }
+.to_be_centered{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 #intro-social{
     padding-top: 2%;
@@ -68,6 +71,12 @@ section{
 .desc{
     margin-top: 0%;
     margin-bottom: 0.5%;
+}
+
+#about{
+    padding-bottom: 1%;
+    padding-top: 1%;
+
 }
 
 #prof-image{
@@ -84,12 +93,45 @@ section{
     box-shadow: none;
 }
 
-
 #projects{
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#project-desc{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project{
+    border: 2px solid black;
+    box-shadow: inset;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
     
+}
+.project-text{
+    
+}
+
+.project-link{
+    text-decoration: none;
+    color: black;
 }
 #resume{
     padding-bottom: 20px;
 }
+
+
+
+
+
+/*Media section for 900px*/
+@media screen and (max-width: 800px) {
+    .to_be_centered{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+

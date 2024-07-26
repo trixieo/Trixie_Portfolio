@@ -6,6 +6,50 @@
     <link rel="stylesheet" href="Portfolio.css">
     <title>Trixie's Portfolio</title>
     
+ <!--TODO
+ Navigation Bar Enhancements:
+
+Sticky Navigation: Ensure the navigation bar remains visible as users scroll.
+Hover Effects: Add subtle hover effects to the navigation links to make them interactive.
+Hero Section Enhancements:
+
+Background Images or Videos: Add a visually appealing background image or video to the hero section.
+Call-to-Action (CTA) Button: Make the "Contact me" button more prominent with a standout design.
+Animations and Transitions:
+
+Scroll Animations: Implement animations that trigger as the user scrolls through different sections of the site.
+Hover Animations: Add animations to project cards and buttons to enhance interactivity.
+Cards and Grids:
+
+Project Cards: Use card layouts for the projects section with images, titles, and descriptions. Add hover effects to highlight each project.
+Grid Layouts: Ensure the projects and other content are laid out in a responsive grid format.
+Typography:
+
+Font Pairings: Use different font pairings for headings and body text to create a visually appealing hierarchy.
+Font Sizes: Adjust font sizes and weights for better readability and emphasis.
+Buttons and Forms:
+
+Stylish Buttons: Design buttons with rounded corners, shadows, and hover effects.
+Contact Form: Include a contact form with validation to allow visitors to reach out easily.
+Modals and Pop-ups:
+
+Project Details: Use modals to display detailed information about each project when clicked.
+Contact Form: Use a modal for the contact form to keep the main page clean.
+Icons and Images:
+
+Social Media Icons: Use consistent and modern icons for social media links.
+Project Thumbnails: Add relevant thumbnails for each project.
+Footer:
+
+Detailed Footer: Include a detailed footer with additional navigation links, contact information, and social media icons.
+Interactive Elements:
+
+Interactive Charts/Graphs: If applicable, add charts or graphs to showcase your skills or project statistics.
+Sliders/Carousels: Use sliders or carousels for testimonials or featured projects.-->
+
+
+
+
 </head>
 <body>
     <main>
@@ -23,40 +67,91 @@
         </header>
 
 
-        <section id="introduction">
+        <section  class="sections">
 
-           <div id="intro-text"><h3>Welcome to my Digital Playground!</h3>
-           <p id="name">I'm <b id="personal_name">Odigie Trixie</b></p>
-           <p><p id="part1" class="desc">I'm a dedicated Mobile App Developer and Front-end Web Developer.</p>  
-              <p id="part2" class="desc">Take a look around, explore my projects, and get to know my journey.</p> 
-              <p id="part3" class="desc">Let's connect and create something amazing together!</p></p>
-              <button id="intro-contact">Contact me</button>
-              <div id="intro-social">
-                <a href="https://www.linkedin.com/in/trixie-odigie-6a39652a9/" target="_parent" >
-                  <img src="images/linkedin-icon-1024x1024-z5dvl47c.png" alt="linkedin" class="social">
-                </a>
-                <a href="https://www.instagram.com/_onosetale._/">
-                  <img src="images/new-Instagram-logo-png-full-colour-glyph.png" alt="instagram" class="social">
-                </a>
-                <a href="https://github.com/trixieo">
-                  <img src="images/github.png" alt="github" class="social">
-                </a>
-                <a href="mailto:trixieodigie36@outlook.com">
-                  <img src="images/email-removebg-preview.png" alt="e-mail" class="social">
-                </a>
+           <div class="to_be_centered" id="introduction"> 
+             <div id="intro-text" >
+              <h3>Welcome to my Digital Playground!</h3>
+             <p id="name">I'm <b id="personal_name">Odigie Trixie</b></p>
+             <p><p id="part1" class="desc">I'm a dedicated Mobile(IOS and Android) App Developer and Front-end Web Developer.</p>
+                <p id="part2" class="desc">Take a look around, explore my projects, and get to know my journey.</p>
+                <p id="part3" class="desc">Let's connect and create something amazing together!</p></p>
+                <button id="intro-contact">Contact me</button>
+                <div id="intro-social">
+                  <a href="https://www.linkedin.com/in/trixie-odigie-6a39652a9/" target="_parent" >
+                    <img src="images/linkedin-icon-1024x1024-z5dvl47c.png" alt="linkedin" class="social">
+                  </a>
+                  <a href="https://www.instagram.com/_onosetale._/">
+                    <img src="images/new-Instagram-logo-png-full-colour-glyph.png" alt="instagram" class="social">
+                  </a>
+                  <a href="https://github.com/trixieo">
+                    <img src="images/github.png" alt="github" class="social">
+                  </a>
+                  <a href="mailto:trixieodigie36@outlook.com">
+                    <img src="images/email-removebg-preview.png" alt="e-mail" class="social">
+                  </a>
+                </div>
               </div>
-
-            </div>
-            <img src="images/me.jpg" alt="" id="prof-image">
+              <img src="images/me.jpg" alt="" id="prof-image">
+           </div>
             
         </section>
 
 
         <div class="space"></div>
 
+        <section class="sections" >
+          <div id="about" class="to_be_centered" > 
+            <p>
+              <h1>About Me</h1>
+              <p> I'm a passionate Flutter mobile app developer and a front-end web developer skilled in HTML, CSS, and JavaScript. </p>
+              <p> Currently, I am pursuing my studies at Augustine University, Ilara-Epe. </p>
+              <p>My journey in technology has been driven by a love for creating interactive and user-friendly applications. Whether it's building a seamless mobile experience or designing a captivating web interface, I am always excited to bring ideas to life through code.</p>
+            </p>
+          </div>
+        </section>
+        <div class="space"></div>
+
         <section id="projects">
             <h1 class="projects-header">Here are some of my projects</h1>
+            <div id="project-desc">
+              <a href="" class="project-link">
+                <div class="project" id="project1">
+                  <img src="" alt="reminder-app" class="prj-img">
+                  <div class="project-text">
+                    <h2>The Reminder</h2>
+                    <p>
+                      This is a mobile app made with Flutter and Dart programming Language.It incorporates the use of Asynchrounous code, as well as State management using Provider.
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="project-link">
+                <div class="project" id="project2" >
+                  <img src="" alt="hospital-tracker" class="prj-img">
+                  <div class="project-text">
+                    <h2>
+                      Hospital-Tracker
+                    </h2>
+                    <p>This is an app which is used to track the nearest Hospital to a clients location. It is also written in Dart. It incorporates the use of Authenitication with Firebase and API integration with Google maps</p></div>
+                </div>
+              </a>
+              <a href="" class="project-link">
+                <div class="project" id="project3">
+                  <img src="" alt="Basic Chat App" >
+                  <div class="project-text">
+                    <h1>
+                      Chat-app
+                    </h1>
+                    <p>This is a basic Chat app similar in function to Whatsapp and any other chat app you might know. It was made with HTML, CSS, Javascript and ReactJS</p>
+                  </div>
+                </div>
+              </a>
+            </div>
         </section>
+
+        <div class="space"></div>
+
         <section id="resume">Click <a href="">here</a> to view/download my Resume</section>
         <section id="contact">
             <p><b>Let's Work Together...</b></p>
