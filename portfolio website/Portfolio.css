@@ -36,13 +36,17 @@ header{
 .nav-link{
     color: #e4d9ff;
     text-decoration: none;
+    font-size: large;
+    font-weight: bold;
 
 }
 .logo{
     width: auto;
     height: auto;
+    padding-bottom: 0%;
+    margin-top: 10px;
 }
-section{
+.sections{
     color:#E4D9FF;
     background-color: #050833;
     
@@ -104,26 +108,31 @@ section{
 }
 
 #projects{
-    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 1%;
+    padding-top: 1%;
+
 }
 
 #project-desc{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-#projects-header{
-    padding-left: 10%;
-}
+
 
 .project{
-    border: 2px solid black;
+    border: 2px solid teal;
     box-shadow: inset;
     margin: 10px;
-    background-color: white;
+    
     border-radius: 20px;
     
+}
+
+.prj-img{
+    padding: 3% ;
 }
 .container{
     width: 400px;
@@ -135,6 +144,7 @@ section{
     border-radius: 20px;
     
 }
+
 
 
 .progress-bar{
@@ -154,14 +164,32 @@ section{
 #progress{
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .project-link{
     text-decoration: none;
-    color: black;
+    color: #E4D9FF;
 }
 #resume{
     padding-bottom: 20px;
+}
+#resume a {
+    color: rgb(123, 0, 255);
+}
+
+#contact{
+    margin: 0%;
+    bottom: 0%;
+    top: 0%;
+    height: 150px;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo{
+    padding-top: 30px;
 }
 
 
@@ -189,11 +217,7 @@ section{
         animation: progressAnimation 3s;
         
     }
-    @keyframes progressAnimation {
-        0% {width: 0%;}
-        80% {width: 80%;}
-        100% {width: 100%;}
-    }
+   
 
     
 }

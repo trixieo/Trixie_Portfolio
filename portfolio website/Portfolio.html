@@ -53,11 +53,12 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
 </head>
 <body>
     <main>
+      <!--Header section-->
         <header>
             
             <nav>
                 <ul class="header-list">
-                    <li><img src="images/TRIXIE-transformed.png" alt="logo" class="logo"></li>
+                    <li><img src="images/TRIXIE-transformed.png" alt="icon" id="icon"></li>
                     <li ><a href="#about" class="nav-link">About</a></li>
                     <li ><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="" class="nav-link">Reviews</a></li>
@@ -65,13 +66,8 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
                 </ul>
             </nav>
         </header>
-        <div id="particles-js"></div>
-
-    <!-- stats - count particles -->
-  <div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div>
-
+       
+        <!--The Introduction section or the first section-->
         <section  class="sections">
           
 
@@ -105,12 +101,12 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
 
 
         <div class="space"></div>
-
-        <section class="sections" >
+        <!--The about section-->
+        <section  >
           <div id="about" class="to_be_centered" > 
             <p>
               <h1>About Me</h1>
-              <p> I'm a passionate Flutter mobile app developer and a front-end web developer skilled in HTML, CSS, and JavaScript. </p>
+              <p> I'm a passionate Flutter mobile app developer and a Front-end web developer skilled in HTML, CSS, and JavaScript. </p>
               <p> Currently, I am pursuing my studies at Augustine University, Ilara-Epe. </p>
               <p>My journey in technology has been driven by a love for creating interactive and user-friendly applications. Whether it's building a seamless mobile experience or designing a captivating web interface, I am always excited to bring ideas to life through code.</p>
             </p>
@@ -118,6 +114,8 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
         </section>
         <div class="space"></div>
         
+
+        <!--The skills section-->
         <section class="sections" id="progress">
           <h1>Skills</h1>
 
@@ -158,6 +156,7 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
 
         <div class="space"></div>
 
+        <!--The projects section-->
         <section id="projects">
             <h1 id="projects-header" al>Here are some of my projects</h1>
             <div id="project-desc">
@@ -184,7 +183,7 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
               </a>
               <a href="" class="project-link">
                 <div class="project" id="project3">
-                  <img src="" alt="Basic Chat App" >
+                  <img src="" alt="Basic Chat App" class="prj-img" >
                   <div class="project-text">
                     <h1>
                       Chat-app
@@ -194,14 +193,19 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
                 </div>
               </a>
             </div>
-            <p id="resume">Click <a href="">here</a> to view/download my Resume</p>
+            <p id="resume">Click <a href="My resume.pdf">here</a> to view/download my Resume</p>
         </section>
 
         <div class="space"></div>
 
-        
-        <footer id="contact">
+        <!--The footer section-->
+        <footer id="contact"  class="sections">
           <div id="left-side">
+            <img src="images/TRIXIE-transformed.png" alt="Icon" id="logo">
+          </div>
+
+
+          <div id="right-side">
             <h2>Let's make something new and unique together, <span id="hello">Just Say Hello</span></h2>
 
             <div>
@@ -224,16 +228,6 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
                 <img src="images/email-removebg-preview - Copy.png" alt="e-mail" class="social">
               </a>
             </div>
-          </div>
-          <div id="right-side">
-            <fieldset>
-              <form action="">
-                <input type="text" name="" id="" value="Your Name">
-                <input type="email">
-                <input type="text">
-                <input type="submit" value="Enter">
-              </form>
-            </fieldset>
           </div>
         </footer>
     </main>
