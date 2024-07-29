@@ -60,14 +60,20 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
                     <li><img src="images/TRIXIE-transformed.png" alt="logo" class="logo"></li>
                     <li ><a href="#about" class="nav-link">About</a></li>
                     <li ><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="" class="nav-link">Reviews</a></li>
                     <li ><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        <div id="particles-js"></div>
 
+    <!-- stats - count particles -->
+  <div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
 
         <section  class="sections">
+          
 
            <div class="to_be_centered" id="introduction"> 
              <div id="intro-text" >
@@ -111,9 +117,49 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
           </div>
         </section>
         <div class="space"></div>
+        
+        <section class="sections" id="progress">
+          <h1>Skills</h1>
+
+          <div id="skills">
+            <div id="first-set">
+              <h4>HTML/CSS</h4>
+              <div class="container">
+                <div class="progress">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+              <H4>JavaScript</H4>
+              <div class="container">
+                <div class="progress">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="second-set">
+              <h4>Flutter Mobile App Development</h4>
+              <div class="container">
+                <div class="progress">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+              <h4>Firebase</h4>
+              <div class="container">
+                <div class="progress">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <div class="space"></div>
 
         <section id="projects">
-            <h1 class="projects-header">Here are some of my projects</h1>
+            <h1 id="projects-header" al>Here are some of my projects</h1>
             <div id="project-desc">
               <a href="" class="project-link">
                 <div class="project" id="project1">
@@ -148,32 +194,48 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
                 </div>
               </a>
             </div>
+            <p id="resume">Click <a href="">here</a> to view/download my Resume</p>
         </section>
 
         <div class="space"></div>
 
-        <section id="resume">Click <a href="">here</a> to view/download my Resume</section>
-        <section id="contact">
-            <p><b>Let's Work Together...</b></p>
-            <p>I look forward to connecting with you soon.</p>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/freecodecamp/">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://twitter.com/freecodecamp/">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://instagram.com/freecodecamp">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/school/free-code-camp/">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://www.youtube.com/freecodecamp">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-        </section>
+        
+        <footer id="contact">
+          <div id="left-side">
+            <h2>Let's make something new and unique together, <span id="hello">Just Say Hello</span></h2>
+
+            <div>
+              <a href="tel:+2348127265814">+234 812 726 5814</a>
+              
+              <a href="mailto:trixieodigie36@outlook.com">trixieodigie36@outlook.com</a>
+            </div>
+
+            <div id="intro-social">
+              <a href="https://www.linkedin.com/in/trixie-odigie-6a39652a9/" target="_parent" >
+                <img src="images/linkedin-icon-1024x1024-z5dvl47c.png" alt="linkedin" class="social">
+              </a>
+              <a href="https://www.instagram.com/_onosetale._/">
+                <img src="images/new-Instagram-logo-png-full-colour-glyph.png" alt="instagram" class="social">
+              </a>
+              <a href="https://github.com/trixieo">
+                <img src="images/github - Copy.png" alt="github" class="social">
+              </a>
+              <a href="mailto:trixieodigie36@outlook.com">
+                <img src="images/email-removebg-preview - Copy.png" alt="e-mail" class="social">
+              </a>
+            </div>
+          </div>
+          <div id="right-side">
+            <fieldset>
+              <form action="">
+                <input type="text" name="" id="" value="Your Name">
+                <input type="email">
+                <input type="text">
+                <input type="submit" value="Enter">
+              </form>
+            </fieldset>
+          </div>
+        </footer>
     </main>
     
     <script src="./Portfolio.js"></script>

@@ -1,10 +1,20 @@
 body{
     background-color:  #02041b;
     font-family: 'Operator Mono', sans-serif;
-
+    position: relative;
+    color: #E4D9FF;
 }
 .space{
     height: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+#particles-js{
+    height: 100%;
+    background-color: #02041b ;
+    position: absolute;
 }
 
 header{
@@ -103,6 +113,10 @@ section{
     justify-content: space-evenly;
 }
 
+#projects-header{
+    padding-left: 10%;
+}
+
 .project{
     border: 2px solid black;
     box-shadow: inset;
@@ -111,8 +125,35 @@ section{
     border-radius: 20px;
     
 }
-.project-text{
+.container{
+    width: 400px;
+}
+
+.progress{
+    padding: 6px;
+    background-color: black;
+    border-radius: 20px;
     
+}
+
+
+.progress-bar{
+    height: 18px;
+    background-color: teal;
+    border-radius: 20px;
+    animation: progressAnimation 7s;
+}
+@keyframes progressAnimation {
+    0% {width: 0%;}
+    80% {width: 80%;}
+    100% {width: 100%;}
+}
+
+
+
+#progress{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .project-link{
@@ -133,5 +174,35 @@ section{
         padding-left: 0%;
         padding-right: 0%;
     }
+
+    .progress{
+        padding: 6px;
+        background-color: black;
+        border-radius: 20px;
+        width: 40svh;
+    }
+    
+    .progress-bar{
+        height: 18px;
+        background-color: teal;
+        border-radius: 20px;
+        animation: progressAnimation 3s;
+        
+    }
+    @keyframes progressAnimation {
+        0% {width: 0%;}
+        80% {width: 80%;}
+        100% {width: 100%;}
+    }
+
+    
+}
+
+@media screen and (min-width: 900px) {
+    #skills{
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }
 
