@@ -33,8 +33,16 @@ header{
     text-decoration: none;
     font-size: large;
     font-weight: bold;
-
+    position: relative;
+    bottom: 25px;
 }
+
+.nav-link:hover{
+    color: teal;
+    font-size:x-large;
+}
+
+
 .logo{
     width: auto;
     height: auto;
@@ -44,6 +52,7 @@ header{
 .sections{
     color:#E4D9FF;
     background-color: #050833;
+    border-radius: 10px;
     
 }
 #introduction{
@@ -73,6 +82,10 @@ header{
 #intro-social{
     padding-top: 2%;
 }
+
+#intro-social a:hover{
+    font-size: larger;
+}
 .social{
     height: 30px;
 
@@ -97,10 +110,19 @@ header{
 }
 #intro-contact{
     color: #E4D9FF;
-    border-radius: 10%;
+    border-radius: 50px;
+    border: 0;
+    padding: 7px;
     background-color: rgb(123, 0, 255);
     box-shadow: none;
 }
+
+#intro-contact:hover{
+    background-color: teal;
+    padding: 8px;
+    font-size: medium;
+}
+
 
 #projects{
     padding-left: 10%;
@@ -178,6 +200,10 @@ header{
 #resume a {
     color: #7b00ff;
 }
+#resume a:hover{
+    color: teal;
+    font-size: large;
+}
 
 #contact{
     margin: 0%;
@@ -201,10 +227,17 @@ header{
     padding-bottom: 10px;
     color: #E4D9FF;
 }
+
+#right-side a:hover{
+    color: teal;
+    font-size: large;
+}
 #hello{
     color:#7b00ff;
     
 }
+
+
 @media screen and (min-width: 900px) {
     #skills{
         display: flex;
@@ -215,13 +248,22 @@ header{
 
 
 
-
+/*RESPONSIVITY SECTION*/
 
 /*Media section for 900px*/
 @media screen and (max-width: 800px) {
     .to_be_centered{
         padding-left: 0%;
         padding-right: 0%;
+    }
+    #prof-image{
+        align-self: flex-end;
+        border-radius: 50%;
+        height: 230px;
+        width: 330px;
+        object-fit: cover;
+        margin-bottom: 40px;
+        margin-left: 15px;
     }
     .progress{
         padding-left: 0%;
