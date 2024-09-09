@@ -27,6 +27,7 @@ header{
     list-style-type: none;
     align-items: flex-end;
     justify-content: space-evenly;
+    
 }
 
 .nav-link{
@@ -35,8 +36,9 @@ header{
     font-size: large;
     font-weight: bold;
     position: relative;
-    bottom: 25px;
+    bottom: 5px;
 }
+
 
 .nav-link:hover{
     color: teal;
@@ -134,7 +136,11 @@ header{
     padding-right: 10%;
     padding-bottom: 1%;
     padding-top: 1%;
+}
 
+#progress-sect{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #project-desc{
@@ -217,19 +223,15 @@ header{
     bottom: 0%;
     top: 0%;
     height: 150px;
-    padding: 5%;
+    padding: 2% 10% 150px 10%;
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    bottom: 0%;
 }
 #logo{
     padding-top: 30px;
 }
-#right-side{
-    display: flex;
-    flex-direction: column;
-}
+
 #right-side a{
     padding-bottom: 10px;
     color: #E4D9FF;
@@ -242,6 +244,47 @@ header{
 #hello{
     color:#7b00ff;
     
+}
+.contact-details{
+    color: #7b00ff;
+    margin-bottom: 10px;
+}
+
+.contact-details:hover{
+    color: teal;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+.form-input{
+    background-color: #050833;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+}
+#message{
+    height: 100px;
+}
+#form-button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #7b00ff;
+    color: #e4d9ff;
+}
+.form-label{
+    padding-top: 10px;
+}
+#form-button:hover{
+    background-color: teal;
+    font-size:x-large;
+    width: 100px;
+    height: 45px;
 }
 
 
