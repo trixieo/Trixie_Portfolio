@@ -72,9 +72,10 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
             <div id="intro-text" >
               <h3>Welcome to my Digital Playground!</h3>
             <p id="name">I'm <b id="personal_name">Odigie Trixie</b></p>
-            <p><p id="part1" class="desc">I'm a dedicated Mobile(IOS and Android) App Developer and Front-end Web Developer.</p>
-                <p id="part2" class="desc">Take a look around, explore my projects, and get to know my journey.</p>
-                <p id="part3" class="desc">Let's connect and create something amazing together!</p></p>
+            <p >
+              <p id="part1" class="desc">I'm a dedicated Mobile(IOS and Android) App Developer and Front-end Web Developer.</p>
+              <p id="part2" class="desc">Take a look around, explore my projects, and get to know my journey.</p>
+              <p id="part3" class="desc">Let's connect and create something amazing together!</p></p>
                 <button id="intro-contact">Contact me</button>
                 <div id="intro-social">
                   <a href="https://www.linkedin.com/in/trixie-odigie-6a39652a9/" target="_parent" >
@@ -103,7 +104,7 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
           <div id="about" class="to_be_centered" > 
             <p>
               <h1>About Me</h1>
-              <p> I'm a passionate Flutter mobile app developer and a Front-end web developer skilled in HTML, CSS, and JavaScript. </p>
+              <p> I'm a passionate Flutter mobile app developer and a Front-end web developer who is also skilled in HTML, CSS, and JavaScript. </p>
               <p> Currently, I am pursuing my studies at Augustine University, Ilara-Epe. </p>
               <p>My journey in technology has been driven by a love for creating interactive and user-friendly applications. Whether it's building a seamless mobile experience or designing a captivating web interface, I am always excited to bring ideas to life through code.</p>
             </p>
@@ -114,40 +115,39 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
 
         <!--The skills section-->
         <section class="sections" id="progress-sect">
-          <h1>Skills</h1>
-
-          <div id="skills">
-            <div id="first-set">
-              <h4>HTML/CSS</h4>
-              <div class="container"  id="html">
-                <div class="progress">
-                  <div class="progress-bar" id="html"></div>
+        <div id="skills-sect">
+          <h1 id="skills-header">Skills</h1>
+            <div id="skills">
+              <div id="first-set">
+                <h4>HTML/CSS</h4>
+                <div class="container"  id="html">
+                  <div class="progress">
+                    <div class="progress-bar" id="html"></div>
+                  </div>
+                </div>
+                <H4>JavaScript</H4>
+                <div class="container" id="js">
+                  <div class="progress">
+                    <div class="progress-bar" id="javascript"></div>
+                  </div>
                 </div>
               </div>
-              <H4>JavaScript</H4>
-              <div class="container" id="js">
-                <div class="progress">
-                  <div class="progress-bar" id="javascript"></div>
+              <div id="second-set" itemid="flutter">
+                <h4>Flutter Mobile App Development</h4>
+                <div class="container">
+                  <div class="progress">
+                    <div class="progress-bar" id="flutter"></div>
+                  </div>
+                </div>
+                <h4>Firebase</h4>
+                <div class="container" id="firebase">
+                  <div class="progress">
+                    <div class="progress-bar" id="firebase"></div>
+                  </div>
                 </div>
               </div>
             </div>
-
-
-            <div id="second-set" itemid="flutter">
-              <h4>Flutter Mobile App Development</h4>
-              <div class="container">
-                <div class="progress">
-                  <div class="progress-bar" id="flutter"></div>
-                </div>
-              </div>
-              <h4>Firebase</h4>
-              <div class="container" id="firebase"> 
-                <div class="progress">
-                  <div class="progress-bar" id="firebase"></div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
 
         </section>
 
@@ -163,7 +163,7 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
                   <div class="project-text">
                     <h2>The Reminder</h2>
                     <p>
-                      This is a mobile app made with Flutter and Dart programming Language.It incorporates the use of Asynchrounous code, as well as State management using Provider.
+                      This is a mobile reminder app made with Flutter and Dart programming Language.<span class="remove">It incorporates the use of Asynchrounous code, as well as State management using Provider.</span>
                     </p>
                   </div>
                 </div>
@@ -175,22 +175,9 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
                     <h2>
                       Hospital-Tracker
                     </h2>
-                    <p>This is an app which is used to track the nearest Hospital to a clients location. It is also written in Dart. It incorporates the use of Authenitication with Firebase and API integration with Google maps</p></div>
+                    <p>This is an app which is used to track the nearest Hospital to a clients location<span class="remove">. It is also written</span> in Dart. <span class="remove">It incorporates the use of Authenitication with Firebase and API integration with Google maps</span></p></div>
                 </div>
               </a>
-              <a href="" class="project-link">
-                <div class="project" id="project3">
-                  <img src="" alt="Basic Chat App" class="prj-img" >
-                  <div class="project-text">
-                    <h1>
-                      Chat-app
-                    </h1>
-                    <p>This is a basic Chat app similar in function to Whatsapp and any other chat app you might know. It was made with HTML, CSS, Javascript and ReactJS</p>
-                  </div>
-                </div>
-                <p id="checker"></p>
-              </a>
-              
                   
             </div>
             <p id="resume">Click <a href="My resume.pdf" ><b>here</b></a> to view/download my <b>Resume</b></p>
@@ -201,27 +188,30 @@ Sliders/Carousels: Use sliders or carousels for testimonials or featured project
         <!--The footer section-->
         <footer id="contact"  class="sections">
           <div id="left-side">
-            <img src="images/TRIXIE-transformed.png" alt="Icon" id="logo">
-            <div id="left-side-bottom">
-              <h2>Let's make something new and unique together, <br> <span id="hello">Just Say Hello</span></h2>
-              <a href="tel:+2348127265814" class="contact-details"><b>+234 812 726 5814</b></a> <br>
+            <img src="images/TRIXIE-transformed.png" alt="Icon" id="contact-logo">
+            <div>
+              </div id="all-left-side-bottom">
+                <div id="left-side-bottom">
+                  <h2>Let's make something new and unique together, <br> <span id="hello">Just Say Hello</span></h2>
+                  <a href="tel:+2348127265814" class="contact-details"><b>+234 812 726 5814</b></a> <br>
               
-              <a href="mailto:trixieodigie36@outlook.com" class="contact-details"><b>trixieodigie36@outlook.com</b></a>
-            </div>
+                  <a href="mailto:trixieodigie36@outlook.com" class="contact-details"><b>trixieodigie36@outlook.com</b></a>
               
-              <div id="intro-social">
-                <a href="https://www.linkedin.com/in/trixie-odigie-6a39652a9/" target="_parent" >
-                  <img src="images/linkedin-icon-1024x1024-z5dvl47c.png" alt="linkedin" class="social">
-                </a>
-                <a href="https://www.instagram.com/_onosetale._/">
-                  <img src="images/new-Instagram-logo-png-full-colour-glyph.png" alt="instagram" class="social">
-                </a>
-                <a href="https://github.com/trixieo">
-                  <img src="images/github - Copy.png" alt="github" class="social">
-                </a>
-                <a href="mailto:trixieodigie36@outlook.com">
-                  <img src="images/email-removebg-preview - Copy.png" alt="e-mail" class="social">
-                </a>
+              
+                  <div id="intro-social">
+                    <a href="https://www.linkedin.com/in/trixie-odigie-6a39652a9/" target="_parent" >
+                      <img src="images/linkedin-icon-1024x1024-z5dvl47c.png" alt="linkedin" class="social">
+                    </a>
+                    <a href="https://www.instagram.com/_onosetale._/">
+                      <img src="images/new-Instagram-logo-png-full-colour-glyph.png" alt="instagram" class="social">
+                  </a>
+                  <a href="https://github.com/trixieo">
+                    <img src="images/github - Copy.png" alt="github" class="social">
+                  </a>
+                  <a href="mailto:trixieodigie36@outlook.com">
+                    <img src="images/email-removebg-preview - Copy.png" alt="e-mail" class="social">
+                  </a>
+              </div>
             </div>
           </div>
 
